@@ -61,7 +61,7 @@ console.log(age == "17"); //true does not take type into account
 console.log(age === "17"); //false does take type into account
  */
 
-let age = 16;
+/* let age = 16;
 age < 17; //true
 age <= 17; //true
 age <= 15; //false
@@ -72,4 +72,15 @@ age == 16 || age == 17; //true age is equal to 16 OR equal 17
 age == 16 && age == 17; //false age is not equal to 16 AND equal to 17
 //Not
 age !== 17; //true, age is NOT equal to 17
-console.log(age !== 17); //true
+console.log(age !== 17); //true */
+
+//////////////////////////////////////////////////// IF Statements
+let age = 17;
+
+if (age < 18) {
+  console.log("You are a child");
+} else if (age >= 18) {
+  console.log("You are an adult now");
+}
+
+//Results in you are a child
