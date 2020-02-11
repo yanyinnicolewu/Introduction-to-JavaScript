@@ -75,12 +75,21 @@ age !== 17; //true, age is NOT equal to 17
 console.log(age !== 17); //true */
 
 //////////////////////////////////////////////////// IF Statements
-let age = 17;
+//let age = 17;
 
-if (age < 18) {
+/* if (age < 18) {
   console.log("You are a child");
 } else if (age >= 18) {
   console.log("You are an adult now");
-}
-
+} */
 //Results in you are a child
+
+/* let school = "elementary";
+if (school == "elementary") {
+  console.log("You are in elementary school");
+} else if (school == "middle") {
+  console.log("you are in middle school");
+} else {
+  console.log("You are in high school");
+}
+ */
