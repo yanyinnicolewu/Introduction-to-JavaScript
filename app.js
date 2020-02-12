@@ -93,3 +93,24 @@ if (school == "elementary") {
   console.log("You are in high school");
 }
  */
+
+/* let light = "green";
+if (light === "green") {
+  console.log("go");
+} else if (light === "yellow") {
+  console.log("use caution");
+} else {
+  console.log("stop");
+} */
+
+let temp = 77;
+
+if (temp < 68) {
+  console.log("Too cold");
+} else if (temp >= 68 && temp <= 72) {
+  console.log("Perfect");
+} else if (temp > 72 && temp <= 76) {
+  console.log("its too warm");
+} else {
+  console.log("its way too hot");
+}
