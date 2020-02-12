@@ -125,3 +125,24 @@ if (kristyLactInt == true && baoBaoLactint == true) {
   console.log("we only need milk");
 }
  */
+
+/////////////////////////////////Functions
+
+function test() {
+  console.log("I am a function");
+}
+function argument(argument) {
+  console.log(argument);
+}
+test();
+argument("Edis");
+function add(x, y) {
+  return x + y;
+}
+console.log(add(2, 7));
+
+let z = function(a, b) {
+  return a * b;
+};
+
+console.log(z(5, 10));
