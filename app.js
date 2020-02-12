@@ -103,7 +103,7 @@ if (light === "green") {
   console.log("stop");
 } */
 
-let temp = 77;
+/* let temp = 77;
 
 if (temp < 68) {
   console.log("Too cold");
@@ -114,3 +114,14 @@ if (temp < 68) {
 } else {
   console.log("its way too hot");
 }
+ */
+/* let kristyLactInt = false;
+let baoBaoLactint = false;
+if (kristyLactInt == true && baoBaoLactint == true) {
+  console.log("get almond milk");
+} else if (kristyLactInt == true || baoBaoLactint == true) {
+  console.log("get milk and almond milk");
+} else {
+  console.log("we only need milk");
+}
+ */
