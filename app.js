@@ -128,7 +128,7 @@ if (kristyLactInt == true && baoBaoLactint == true) {
 
 /////////////////////////////////Functions
 
-function test() {
+/* function test() {
   console.log("I am a function");
 }
 function argument(argument) {
@@ -146,3 +146,23 @@ let z = function(a, b) {
 };
 
 console.log(z(5, 10));
+ */
+////////////////////////////////////Scoping
+/* function makeFunc() {
+  var name = "Mozilla";
+  function displayName() {
+    alert(name);
+  }
+  return displayName;
+}
+
+var myFunc = makeFunc();
+myFunc(); */
+/////////////////////////////////////////////// Arrays
+
+/* let names = ["Michelle", "Edis", "Richard", "Giselle", "Gia"];
+names.forEach(name => console.log(name)); */
+
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+const result = students.filter(student => student.length < 5);
+console.log(result);
