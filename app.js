@@ -163,6 +163,15 @@ myFunc(); */
 /* let names = ["Michelle", "Edis", "Richard", "Giselle", "Gia"];
 names.forEach(name => console.log(name)); */
 
-let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+/* let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
 const result = students.filter(student => student.length < 5);
 console.log(result);
+ */
+
+const divArr = document.querySelectorAll(".bc");
+function color() {
+  divArr.forEach(div => {
+    div.style.backgroundColor = "blue";
+  });
+}
+color();
