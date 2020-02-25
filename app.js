@@ -168,10 +168,12 @@ const result = students.filter(student => student.length < 5);
 console.log(result);
  */
 
-const divArr = document.querySelectorAll(".bc");
+//another example
+/* const divArr = document.querySelectorAll(".bc");
 function color() {
   divArr.forEach(div => {
     div.style.backgroundColor = "blue";
   });
 }
 color();
+ */
