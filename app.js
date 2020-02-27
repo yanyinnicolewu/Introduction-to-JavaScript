@@ -36,3 +36,30 @@ Map.apply();
 
 console.log(Homer);
  */
+
+const Homer = {
+  name: "Homer",
+  age: 32,
+  graduated: false,
+  family: {
+    wife: {
+      name: "Marge",
+      age: 32
+    },
+    son: {
+      name: "bart",
+      age: 10
+    },
+    daughter: {
+      name: "Lisa",
+      age: 8
+    }
+  }
+};
+
+Homer.family.daughter2 = {
+  name: "Maggie",
+  age: 0
+};
+
+console.log(Homer.family);
