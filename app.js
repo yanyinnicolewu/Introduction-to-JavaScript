@@ -177,3 +177,15 @@ function color() {
 }
 color();
  */
+/////Spread Operator
+/* const numbers = [1, 2, 3];
+const add = function(x, y, z) {
+  return x + y + z;
+};
+console.log(add(...numbers));
+ */
+
+/* const numbers = [1, 50, 34, 75, 11];
+const biggestNum = Math.max(...numbers);
+console.log(biggestNum);
+ */
