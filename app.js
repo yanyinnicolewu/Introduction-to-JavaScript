@@ -37,7 +37,7 @@ Map.apply();
 console.log(Homer);
  */
 
-const Homer = {
+/* const Homer = {
   name: "Homer",
   age: 32,
   graduated: false,
@@ -63,3 +63,17 @@ Homer.family.daughter2 = {
 };
 
 console.log(Homer.family);
+ */
+
+/////references in objects
+
+/* const Lisa = {
+  name: "Lisa",
+  age: 17
+};
+const Melvin = Lisa;
+//console.log(Melvin);
+
+Melvin.name = "Melvin";
+console.log(Lisa);
+ */
