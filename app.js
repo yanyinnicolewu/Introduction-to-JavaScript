@@ -77,3 +77,31 @@ const Melvin = Lisa;
 Melvin.name = "Melvin";
 console.log(Lisa);
  */
+const presidents = [
+  { name: "Donald Trump", terms: 1, party: "R" },
+  { name: "Barack Obama", terms: 2, party: "D" },
+  { name: "George W. Bush", terms: 2, party: "R" },
+  { name: "Bill Clinton", terms: 2, party: "D" },
+  { name: "George H.W. Bush", terms: 1, party: "R" },
+  { name: "Ronald Reagan", terms: 2, party: "R" },
+  { name: "Jimmy Carter", terms: 1, party: "D" },
+  { name: "Gerlad Ford", terms: 1, party: "R" },
+  { name: "Richard Nixon", terms: 2, party: "R" },
+  { name: "John F. Kennedy", terms: 1, party: "D" },
+  { name: "Lyndon Johnson", terms: 2, party: "D" },
+  { name: "Dwight Eisenhower", terms: 2, party: "R" }
+];
+
+const Dems = presidents.filter(el => el.party === "D");
+//console.log(Dems);
+/* const oneTermRep = presidents.filter(function(pres) {
+  if (pres.terms === 1 && pres.party === "R") {
+    return true;
+  }
+}); */
+//const oneTermRep = presidents.filter(el => el.party === "R" && el.terms === 1);
+//console.log(oneTermRep);
+
+//return only last three presidents
+const three = presidents.slice(presidents.length - 3);
+console.log(three);
