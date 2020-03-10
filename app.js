@@ -77,7 +77,7 @@ const Melvin = Lisa;
 Melvin.name = "Melvin";
 console.log(Lisa);
  */
-const presidents = [
+/* const presidents = [
   { name: "Donald Trump", terms: 1, party: "R" },
   { name: "Barack Obama", terms: 2, party: "D" },
   { name: "George W. Bush", terms: 2, party: "R" },
@@ -92,7 +92,7 @@ const presidents = [
   { name: "Dwight Eisenhower", terms: 2, party: "R" }
 ];
 
-const Dems = presidents.filter(el => el.party === "D");
+const Dems = presidents.filter(el => el.party === "D"); */
 //console.log(Dems);
 /* const oneTermRep = presidents.filter(function(pres) {
   if (pres.terms === 1 && pres.party === "R") {
@@ -124,7 +124,7 @@ console.log(dems2);
  */
 //Was lyndon Johnson a 2 term president?
 
-const dems2 = presidents
+/* const dems2 = presidents
   .filter(el => el.party === "D")
   .filter(el => el.terms === 2);
 
@@ -133,3 +133,4 @@ if (dems2.some(person => person.name === "Lyndon Johnson")) {
 } else {
   alert("Object not found.");
 }
+ */
