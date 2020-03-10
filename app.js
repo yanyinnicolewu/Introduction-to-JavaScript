@@ -189,3 +189,40 @@ console.log(add(...numbers));
 const biggestNum = Math.max(...numbers);
 console.log(biggestNum);
  */
+
+////////////////////////////Closures
+/* function pam() {
+  let name = "Pam Beesly"; // Declare variable
+  function displayName() {
+    console.log(name); //log that variable from the outer function
+  }
+  function setName(newName) {
+    name = newName; // this inner function REDEFINES the outer variable
+  }
+  displayName(); //log OG name
+  setName("Pam Halpert"); //Set new name
+  displayName(); //log new name
+}
+pam(); */
+/* 
+function dwightJob(title) {
+  return function(prefix) {
+    return prefix + " " + title;
+  };
+}
+
+var sales = dwightJob("Salesman");
+var manager = dwightJob("Manager");
+
+console.log(sales("Top")); // Top Salesman
+console.log(manager("Assistant to the Regional")); // Assistant to the Regional Manager
+console.log(manager("Regional")); // Regional Manager */
+
+//https://medium.com/@dis_is_patrick/practical-uses-for-closures-c65640ae7304
+
+/* sales("Top") 
+dwightJob("Salesman"){
+  return function("Top"){
+    return "Top" + "Salesmen"
+  }
+} */
