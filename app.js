@@ -103,5 +103,13 @@ const Dems = presidents.filter(el => el.party === "D");
 //console.log(oneTermRep);
 
 //return only last three presidents
-const three = presidents.slice(presidents.length - 3);
-console.log(three);
+/* const three = presidents.slice(presidents.length - 3);
+console.log(three); */
+
+////print the array in reverse
+//const reverse = presidents.reverse();
+//console.log(reverse);
+
+//return only the last three presidents
+/* const three = reverse.slice(presidents.length - 3);
+console.log(three); */
