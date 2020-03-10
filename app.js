@@ -113,3 +113,23 @@ console.log(three); */
 //return only the last three presidents
 /* const three = reverse.slice(presidents.length - 3);
 console.log(three); */
+
+////log all democrats who served 2 terms
+/* const dems2 = presidents
+  .filter(el => el.party === "D")
+  .filter(el => el.terms === 2)
+  .slice();
+
+console.log(dems2);
+ */
+//Was lyndon Johnson a 2 term president?
+
+const dems2 = presidents
+  .filter(el => el.party === "D")
+  .filter(el => el.terms === 2);
+
+if (dems2.some(person => person.name === "Lyndon Johnson")) {
+  alert("Object found inside the array.");
+} else {
+  alert("Object not found.");
+}
