@@ -28,3 +28,8 @@ body {
 .icon-test:hover {
   transform: rotate(720deg);
 }
+.Karen {
+  background-color: red;
+  font-size: 50px;
+  color: white;
+}

@@ -21,3 +21,17 @@ const list = document.querySelector(".list");
 console.log(list.childElementCount);
 console.log(list.firstChild);
 console.log(list.firstElementChild); */
+
+//const headerClass = document.querySelector(".header");
+
+/* console.log(headerClass.classList);
+const classArr = Array.from(headerClass.classList);
+headerClass.classList.add("Karen");
+//headerClass.classList = "";
+//headerClass.classList = "Karen";
+headerClass.classList.remove("Karen"); */
+/* const button = document.querySelector(".toggle");
+button.addEventListener("click", function() {
+  headerClass.classList.toggle("Karen");
+});
+ */
