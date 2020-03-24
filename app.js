@@ -146,6 +146,8 @@ let z = function(a, b) {
 };
 
 console.log(z(5, 10));
+
+//Abstraction Example
  */
 ////////////////////////////////////Scoping
 /* function makeFunc() {
