@@ -150,6 +150,7 @@ console.log(z(5, 10));
 //Abstraction Example
  */
 ////////////////////////////////////Scoping
+//let vs const first
 /* function makeFunc() {
   var name = "Mozilla";
   function displayName() {
