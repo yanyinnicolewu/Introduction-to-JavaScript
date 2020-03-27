@@ -165,7 +165,7 @@ myFunc(); */
 
 /* let names = ["Michelle", "Edis", "Richard", "Giselle", "Gia"];
 names.forEach(name => console.log(name)); */
-
+//push example
 /* let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
 const result = students.filter(student => student.length < 5);
 console.log(result);
@@ -178,8 +178,8 @@ function color() {
     div.style.backgroundColor = "blue";
   });
 }
-color();
- */
+color(); */
+
 /////Spread Operator
 /* const numbers = [1, 2, 3];
 const add = function(x, y, z) {
