@@ -1,17 +1,22 @@
 /////////////////////Objects
 /* const Lisa = {
   name: "Lisa",
-  age: 17,
-  graduated: false
+  dob: 2003,
+  graduated: false,
+  age: function() {
+    return 2020 - this.dob;
+  },
+  test: function() {
+    console.log(this);
+  }
 };
-console.log(Lisa.name);
+console.log(Lisa.name); */
 
-Math.random;
+/* Math.random;
 Array.from;
 Object.create();
 Map.apply();
  */
-
 //console.log(Math);
 
 /* const Homer = {
