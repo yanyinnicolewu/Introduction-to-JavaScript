@@ -82,6 +82,18 @@ const Melvin = Lisa;
 Melvin.name = "Melvin";
 console.log(Lisa);
  */
+////Desctucturing
+/* const Sandra = {
+  name: "Sandra",
+  age: 17,
+  student: true,
+  year: "junior",
+  graduated: false
+};
+const { name, year } = Sandra; */
+//const student = {};
+//student.name = Sandra.name;
+//const student2 = Sandra;
 /* const presidents = [
   { name: "Donald Trump", terms: 1, party: "R" },
   { name: "Barack Obama", terms: 2, party: "D" },
@@ -96,8 +108,8 @@ console.log(Lisa);
   { name: "Lyndon Johnson", terms: 2, party: "D" },
   { name: "Dwight Eisenhower", terms: 2, party: "R" }
 ];
-
-const Dems = presidents.filter(el => el.party === "D"); */
+ */
+// const Dems = presidents.filter(el => el.party === "D");
 //console.log(Dems);
 /* const oneTermRep = presidents.filter(function(pres) {
   if (pres.terms === 1 && pres.party === "R") {
@@ -134,8 +146,8 @@ console.log(dems2);
   .filter(el => el.terms === 2);
 
 if (dems2.some(person => person.name === "Lyndon Johnson")) {
-  alert("Object found inside the array.");
+  alert("LBJ served two terms");
 } else {
-  alert("Object not found.");
+  alert("LBJ was one and done");
 }
  */
