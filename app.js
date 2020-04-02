@@ -1,3 +1,10 @@
+/* let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+function filter() {
+  let names = ["Alan", "Savva"];
+} */
+//console.log(students.some(filter));
+//console.log(students.some(name => name == "Savva" || name == "Alan"));
+
 /////////////////////Objects
 /* const Lisa = {
   name: "Lisa",
