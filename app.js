@@ -52,6 +52,7 @@ console.log(Homer);
 /* const Homer = {
   name: "Homer",
   age: 32,
+  pets: ["Cat", "Dog"],
   graduated: false,
   family: {
     wife: {
@@ -98,6 +99,20 @@ console.log(Lisa);
   graduated: false
 };
 const { name, year } = Sandra; */
+//////Desctructuring
+
+/* const Sandra = {
+  name: "Sandra",
+  age: 17,
+  student: true,
+  year: "junior",
+  graduated: false
+};
+
+const { name, year } = Sandra;
+//const student = {};
+//student.name = Sandra.name;
+const student = Sandra; //this is not a copy */
 //const student = {};
 //student.name = Sandra.name;
 //const student2 = Sandra;
