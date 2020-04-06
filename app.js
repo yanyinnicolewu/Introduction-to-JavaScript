@@ -35,3 +35,25 @@ button.addEventListener("click", function() {
   headerClass.classList.toggle("Karen");
 });
  */
+
+///change bacco SPOACING IS SUPER IMPORTANT
+const background = document.querySelector(".background");
+const changeBtn = document.querySelector(".button");
+const headerTwo = document.querySelector(".header-two");
+changeBtn.addEventListener("click", function () {
+  if (background.style.backgroundColor !== "rgb(155, 0, 125)") {
+    background.style.backgroundColor = "rgb(155, 0, 125)";
+    headerTwo.textContent = "Magenta";
+  } else {
+    background.style.backgroundColor = "rgb(0, 0, 125)";
+    headerTwo.textContent = "Blue";
+  }
+});
+/* changeBtn.addEventListener("click", function () {
+  if (background.style.backgroundColor !== "rgb(255, 255, 255)") {
+    background.style.backgroundColor = "rgb(255, 255, 255)";
+  } else {
+    background.style.backgroundColor = "rgb(255, 0, 255)";
+  }
+});
+ */
