@@ -40,7 +40,15 @@ button.addEventListener("click", function() {
 const background = document.querySelector(".background");
 const changeBtn = document.querySelector(".button");
 const headerTwo = document.querySelector(".header-two");
-changeBtn.addEventListener("click", function () {
+
+/* changeBtn.addEventListener("click", function () {
+  const R = Math.floor(Math.random() * 256);
+  const G = Math.floor(Math.random() * 256);
+  const B = Math.floor(Math.random() * 256);
+  background.style.backgroundColor = `rgb(${R}, ${G}, ${B})`;
+});
+ */
+/* changeBtn.addEventListener("click", function () {
   if (background.style.backgroundColor !== "rgb(155, 0, 125)") {
     background.style.backgroundColor = "rgb(155, 0, 125)";
     headerTwo.textContent = "Magenta";
@@ -48,7 +56,7 @@ changeBtn.addEventListener("click", function () {
     background.style.backgroundColor = "rgb(0, 0, 125)";
     headerTwo.textContent = "Blue";
   }
-});
+}); */
 /* changeBtn.addEventListener("click", function () {
   if (background.style.backgroundColor !== "rgb(255, 255, 255)") {
     background.style.backgroundColor = "rgb(255, 255, 255)";
