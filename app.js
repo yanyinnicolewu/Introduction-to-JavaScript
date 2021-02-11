@@ -66,3 +66,24 @@ changeBtn.addEventListener("click", function () {
   }
 });
  */
+//const x = 8; //global scope
+/* const x = 87;
+const testFn = function () {
+  x = 9; //function scope
+  return x;
+};
+testFn();
+console.log(x);
+ */
+let score = 0;
+const addScore = function () {
+  score++;
+  return score;
+};
+console.log(score);
+addScore();
+console.log(score);
+addScore();
+console.log(score);
+addScore();
+console.log(score);
