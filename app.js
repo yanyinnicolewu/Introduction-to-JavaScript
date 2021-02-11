@@ -301,3 +301,8 @@ function filter() {
 }
 //console.log(students.some(filter));
 //console.log(students.some(name => name == "Savva" || name == "Alan"));
+let z = function (a, b) {
+  return a * b;
+};
+
+console.log(z(3, 6));
