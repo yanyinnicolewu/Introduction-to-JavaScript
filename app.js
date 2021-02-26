@@ -10,12 +10,12 @@ function filter() {
   name: "Lisa",
   dob: 2003,
   graduated: false,
-  age: function() {
+  age: function () {
     return 2020 - this.dob;
   },
-  test: function() {
+  test: function () {
     console.log(this);
-  }
+  },
 };
 console.log(Lisa.name); */
 
