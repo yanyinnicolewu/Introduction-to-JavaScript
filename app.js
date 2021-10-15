@@ -294,7 +294,7 @@ makeFunc();
 const myFunc = makeFunc();
 myFunc();
  */
-
+/* 
 let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
 function filter() {
   let names = ["Alan", "Savva"];
@@ -306,3 +306,25 @@ let z = function (a, b) {
 };
 
 console.log(z(3, 6));
+ */
+/* const calculateBMI = function (person) {
+  return (person.weight / person.height ** 2) * 10000;
+}; */
+const calculateBMI = function (weight, height) {
+  return (weight / height ** 2) * 10000;
+};
+const James = {
+  name: "James",
+  weight: 72,
+  height: 182,
+  BMI: calculateBMI(this.weight, this.height),
+};
+const Jamie = {
+  name: "Jamie",
+  weight: 63.5,
+  height: 162,
+};
+
+console.log(James.BMI);
+
+/* const compareBMI = function() */
