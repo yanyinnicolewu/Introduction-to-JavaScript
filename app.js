@@ -336,8 +336,3 @@ console.log(z(3, 6));
 //   }
 // };
 //console.log(calculateBMI(James));
-compareBMI(James);
-const age = 21;
-if (age >= 18) {
-  console.log("Vote");
-} else of;
