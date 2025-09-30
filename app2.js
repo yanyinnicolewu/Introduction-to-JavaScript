@@ -47,4 +47,24 @@ const found = students.find((student)=>student === "London"); console.log(found)
 const numbs = [1,2,3,4,5,6,7,8,9,10];
 //const x = numbs.filter((numb) => numb %2 ===0).forEach((el)=>console.Log(el));
 
+const sentence = "Edward is cool and Jean is a problem";
+const x = [...sentence];
+console.log(x);
 
+function language(sentence) {
+    let t = 0;
+    let s = 0;
+    for(let i = 0; i < sentence.length; i++){
+        if (sentence[i] === "S"|| sentence [i]=== "s") {
+            s=s+1;
+        }else if (sentence[i] === "T" || sentence[i] === "t") {
+            t++;
+        }
+    }
+    if (t> s) {
+        console.log("English")
+    }else{
+        console.log("Parle Vu Francaise");
+    }
+}
+language(sentence);
