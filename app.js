@@ -310,30 +310,29 @@ console.log(z(3, 6));
 /* const calculateBMI = function (person) {
   return (person.weight / person.height ** 2) * 10000;
 }; */
-const calculateBMI = function (person) {
-  let BMI = (person.weight / person.height ** 2) * 10000;
-  return BMI;
-};
-const James = {
-  name: "James",
-  weight: 72,
-  height: 182,
-};
-const Jamie = {
-  name: "Jamie",
-  weight: 63.5,
-  height: 162,
-};
+// const calculateBMI = function (person) {
+//   let BMI = (person.weight / person.height ** 2) * 10000;
+//   return BMI;
+// };
+// const James = {
+//   name: "James",
+//   weight: 72,
+//   height: 182,
+// };
+// const Jamie = {
+//   name: "Jamie",
+//   weight: 63.5,
+//   height: 162,
+// };
 
-const compareBMI = function (person) {
-  let BMI = calculateBMI(person);
-  if (BMI < 18.5) {
-    alert("you are underweight");
-  } else if (BMI > 18.5 && BMI < 25) {
-    alert("you are healthy");
-  } else {
-    alert("you are overwieght");
-  }
-};
+// const compareBMI = function (person) {
+//   let BMI = calculateBMI(person);
+//   if (BMI < 18.5) {
+//     alert("you are underweight");
+//   } else if (BMI > 18.5 && BMI < 25) {
+//     alert("you are healthy");
+//   } else {
+//     alert("you are overwieght");
+//   }
+// };
 //console.log(calculateBMI(James));
-compareBMI(James);
