@@ -68,3 +68,8 @@ function language(sentence) {
     }
 }
 language(sentence);
+
+books.forEach((book) console.log(book.title));
+books
+.filter((book) book.price < 10)
+.forEach((book) console.log(book.title));
