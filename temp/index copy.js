@@ -12,4 +12,3 @@ function makeRGB(event) {
   box.style.backgroundColor = `rgb(${r},${g},${b})`;
 }
 button.addEventListener("click", makeRGB);
-русский язык и музыка. Иногда я убираюсь в комнате и мою посуду.
